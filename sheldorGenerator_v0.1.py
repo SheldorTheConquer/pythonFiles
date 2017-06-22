@@ -58,4 +58,8 @@ def gerarSenha(tamanhoDaSenha, numeros, caractereEspecial):
         
         return password
 
-print(gerarSenha(tamanhoDaSenha, numeros, caractereEspecial))
+#mostra mais de uma senha pra que o usuário possa escolher dentre as possibilidades
+i = 0
+while i<10:
+        print(gerarSenha(tamanhoDaSenha, numeros, caractereEspecial))
+        i+=1
