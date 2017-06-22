@@ -14,14 +14,14 @@ tamanhoDaSenha = int(input("Digite o tamanho da senha: "))
 while tamanhoDaSenha < 6:
         tamanhoDaSenha = int(input("\nDigite novamente o tamanho da senha, é necessário ser mais que 5: "))
 
-        
+#opções de senha       
 numeros = str(input("\nDigite 'S' - Sim ou 'N' - Não para números na senha: "))
 numeros = numeros.upper()
 while numeros != "S" and numeros !="N":
         numeros = str(input("\nDigite 'S' - Sim ou 'N' - Não para números na senha: \n"))
 
 
-        
+#opções de senha
 caractereEspecial = str(input("\nDigite 'S' - Sim ou 'N' - Não para caracteres especiais na senha: \n"))
 caractereEspecial = caractereEspecial.upper()
 while caractereEspecial != "S" and caractereEspecial !="N":
