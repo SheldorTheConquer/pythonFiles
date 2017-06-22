@@ -18,14 +18,14 @@ while tamanhoDaSenha < 6:
 numeros = str(input("\nDigite 'S' - Sim ou 'N' - Não para números na senha: "))
 numeros = numeros.upper()
 while numeros != "S" and numeros !="N":
-        numeros = str(input("\nDigite 'S' - Sim ou 'N' - Não para números na senha: "))
+        numeros = str(input("\nDigite 'S' - Sim ou 'N' - Não para números na senha: \n"))
 
 
         
-caractereEspecial = str(input("\nDigite 'S' - Sim ou 'N' - Não para caracteres especiais na senha: "))
+caractereEspecial = str(input("\nDigite 'S' - Sim ou 'N' - Não para caracteres especiais na senha: \n"))
 caractereEspecial = caractereEspecial.upper()
 while caractereEspecial != "S" and caractereEspecial !="N":
-                caractereEspecial = str(input("\nDigite 'S' - Sim ou 'N' - Não para caracteres especiais na senha: "))
+                caractereEspecial = str(input("\nDigite 'S' - Sim ou 'N' - Não para caracteres especiais na senha: \n"))
 
 
 #'numeros' e 'caractereEspecial' como parametros pra que a função posssa trabalhar internamente com as estruturas de condição
