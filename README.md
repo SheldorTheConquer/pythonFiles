@@ -1,2 +1,2 @@
 # pythonFiles
-programas desenvolvidos em python
+Programas desenvolvidos em Python, linguagem extra-curricular.
