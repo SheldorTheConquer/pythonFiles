@@ -60,6 +60,11 @@ def gerarSenha(tamanhoDaSenha, numeros, caractereEspecial):
 
 #mostra mais de uma senha pra que o usuário possa escolher dentre as possibilidades
 i = 0
-while i<10:
-        print(gerarSenha(tamanhoDaSenha, numeros, caractereEspecial))
+log = open('log.txt', 'a+') #abre o arquivo para a gravação no final
+while i<10: 
+        senhas = gerarSenha(tamanhoDaSenha, numeros, caractereEspecial)
+        log.writelines(senhas+'\n')#esreve uma senha, linha por linha. além de listar as que já foram utilizadas
+        print(senhas)
         i+=1
+
+log.close()
